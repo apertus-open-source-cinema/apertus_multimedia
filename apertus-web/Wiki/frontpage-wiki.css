@@ -1,0 +1,52 @@
+/*Frontpage Wiki Formatting*/
+/*Matt Marshall - matt@rebelmm.com*/
+/*IRC- irc.freenode.net - #apertus - UserID: Rebelj12a*/
+
+div#main{
+	width: 72%;
+	height: auto;
+	background-color: #fee3e3;
+	float: left;
+	position: relative;
+	display: inline;
+}
+/*H1 formatting*/
+div#main h1{
+	font: 32px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div#main h2{
+	font: 24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div#main h3{
+	font: 18.7167px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div#main h4{
+	font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div#main h5{
+	font: 13px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+div#main h6{
+	font: 10px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+div#main-menu{
+	width: 100%;
+}
+div#menu-header{
+	width: 100%;
+	text-align: center;
+}
+
+.menu-columns{
+	text-align: center;
+	width: 200px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/*News Ticker / headline header*/
+div#main-header{
+	
+}
