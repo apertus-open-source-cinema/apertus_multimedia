@@ -15,7 +15,7 @@
    viewBox="0 0 100 100"
    height="100mm"
    width="100mm"
-   sodipodi:docname="Icons.svg"
+   sodipodi:docname="OpenCine_Icons.svg"
    inkscape:export-filename="/home/andi/Documents/frame_fwd.png"
    inkscape:export-xdpi="130.05"
    inkscape:export-ydpi="130.05">
@@ -33,10 +33,10 @@
      inkscape:guide-bbox="true"
      showguides="true"
      showgrid="true"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer4"
      inkscape:document-units="mm"
-     inkscape:cy="136.24935"
-     inkscape:cx="66.725089"
+     inkscape:cy="188.57525"
+     inkscape:cx="80.513671"
      inkscape:zoom="1.4142136"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
@@ -45,7 +45,9 @@
      pagecolor="#ffffff"
      id="base"
      inkscape:snap-grids="true"
-     inkscape:snap-to-guides="true">
+     inkscape:snap-to-guides="true"
+     inkscape:snap-center="false"
+     inkscape:snap-object-midpoints="false">
     <inkscape:grid
        id="grid4143"
        type="xygrid"
@@ -91,7 +93,7 @@
      id="layer1"
      inkscape:groupmode="layer"
      inkscape:label="Stop"
-     style="display:inline">
+     style="display:none">
     <rect
        style="fill:#000000;fill-rule:evenodd;stroke:#000000;stroke-width:7.05555534;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect3346"
@@ -107,7 +109,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Play fwd"
-     style="display:inline">
+     style="display:none">
     <path
        sodipodi:type="star"
        style="fill:#000000;stroke:#000000;stroke-width:8.24782276;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -137,7 +139,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Frame fwd"
-     style="display:inline">
+     style="display:none">
     <path
        sodipodi:type="star"
        style="display:inline;fill:#000000;stroke:#000000;stroke-width:8.24782276;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -157,5 +159,28 @@
        transform="matrix(0.81481478,0,0,0.89810037,14.556689,5.0949801)"
        inkscape:export-xdpi="130"
        inkscape:export-ydpi="130" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Pause">
+    <g
+       id="g4171"
+       transform="translate(2.4999996,1.470248e-6)">
+      <rect
+         y="15.000001"
+         x="57.500004"
+         height="69.999992"
+         width="14.99999"
+         id="rect4209-1"
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:3.52777767;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="15.000001"
+         x="22.500004"
+         height="69.999992"
+         width="14.99999"
+         id="rect4209-17"
+         style="display:inline;fill:#000000;stroke:#000000;stroke-width:3.52777767;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
   </g>
 </svg>
