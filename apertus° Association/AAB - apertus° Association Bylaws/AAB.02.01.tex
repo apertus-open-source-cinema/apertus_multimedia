@@ -1,0 +1,178 @@
+\documentclass{article}
+\usepackage{fancyhdr} % Required for custom headers
+\usepackage{lastpage} % Required to determine the last page for the footer
+\usepackage{extramarks} % Required for headers and footers
+\usepackage[usenames,dvipsnames]{xcolor} % Required for custom colors
+\usepackage{graphicx} % Required to insert images
+\usepackage{listings} % Required for insertion of code
+\usepackage{courier} % Required for the courier font
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage{hyperref}
+\usepackage{gensymb} 
+\usepackage{siunitx} % Required for degree symbol\newpage
+
+
+\hypersetup{
+    colorlinks=true,
+    %linkbordercolor={white},
+    %urlbordercolor={white},
+    %runbordercolor={white},
+    %citebordercolor={white},
+    linkcolor={black},
+    menucolor = {black},
+    urlcolor = {blue},
+    runcolor = {black},
+    citecolor = {black},
+    anchorcolor = {blue}
+}
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1} % Line spacing
+
+% Set up the header and footer
+\pagestyle{fancy}
+\lhead{\AssName} % Top left header
+\rhead{\DocName} % Top right header
+\lfoot{\DocRef} % Bottom left footer
+\cfoot{email: team@apertus.org} % Bottom center footer
+\rfoot{Page\ \thepage\ of\ \protect\pageref{LastPage}} % Bottom right footer
+\renewcommand\headrulewidth{0.4pt} % Size of the header rule
+\renewcommand\footrulewidth{0.4pt} % Size of the footer rule
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	STRUCTURE COMMANDS
+%----------------------------------------------------------------------------------------
+
+% Header and footer for when a page split occurs within a problem environment
+\newcommand{\enterProblemHeader}[1]{
+\nobreak\extramarks{#1}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+}
+
+\setlength\parindent{0pt} % Removes all indentation from paragraphs
+
+% Header and footer for when a page split occurs between problem environments
+\newcommand{\exitProblemHeader}[1]{
+\nobreak\extramarks{#1 (continued)}{#1 continued on next page\ldots}\nobreak
+\nobreak\extramarks{#1}{}\nobreak
+}
+
+\setcounter{secnumdepth}{5} % Makes sure that the indexing tree has 5 tiers
+\setcounter{tocdepth}{5}
+
+\newcommand{\homeworkProblemName}{}
+\newenvironment{homeworkProblem}[1][Problem \arabic{homeworkProblemCounter}]{ % Makes a new environment called homeworkProblem which takes 1 argument (custom name) but the default is "Problem #"
+\stepcounter{homeworkProblemCounter} % Increase counter for number of problems
+\renewcommand{\homeworkProblemName}{#1} % Assign \homeworkProblemName the name of the problem
+\section{\homeworkProblemName} % Make a section in the document with the custom problem count
+\enterProblemHeader{\homeworkProblemName} % Header and footer within the environment
+}{
+\exitProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+\newcommand{\problemAnswer}[1]{ % Defines the problem answer command with the content as the only argument
+
+}
+
+\newcommand{\homeworkSectionName}{}
+\newenvironment{homeworkSection}[1]{ % New environment for sections within homework problems, takes 1 argument - the name of the section
+\renewcommand{\homeworkSectionName}{#1} % Assign \homeworkSectionName to the name of the section from the environment argument
+\subsection{\homeworkSectionName} % Make a subsection with the custom name of the subsection
+\enterProblemHeader{\homeworkProblemName\ [\homeworkSectionName]} % Header and footer within the environment
+}{
+\enterProblemHeader{\homeworkProblemName} % Header and footer after the environment
+}
+
+\definecolor{keywordBack}{HTML}{FFEDED}
+\newcommand{\importantKeyword}[1]{\colorbox{keywordBack}{\textcolor{BrickRed}{#1}}}
+
+\newcommand{\consoleCommand}[1]{
+	\begin{lstlisting}[language=bash,basicstyle=\ttfamily,morekeywords=$,keywordstyle=\bfseries,frame=none,xleftmargin=0.25in,belowskip=2em, aboveskip=2em,columns=fullflexible]^^J
+	#1
+	\end{lstlisting}
+}
+
+\newcommand{\consoleScript}[1]{
+	\begin{lstlisting}[basicstyle=\ttfamily,keywordstyle=\bfseries,frame=none,xleftmargin=0.25in,belowskip=2em, aboveskip=2em,columns=fullflexible]^^J
+	#1
+	\end{lstlisting}
+}
+
+%----------------------------------------------------------------------------------------
+%	NAMING
+%----------------------------------------------------------------------------------------
+
+\newcommand{\DocRef}{AAB.02.01.En.} % Foot Left
+\newcommand{\AssName}{apertus\degree Association} % Head Left
+\newcommand{\DocName}{apertus\degree Association Bylaws} % Head Right
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title{
+\vspace{2in}
+\textmd{\textbf{\hmwkClass:\ \hmwkTitle}}\\
+\normalsize\vspace{0.1in}\small{Due\ on\ \hmwkDueDate}\\
+\vspace{0.1in}\large{\textit{\hmwkClassInstructor\ \hmwkClassTime}}
+\vspace{3in}
+}
+
+\author{\textbf{\hmwkAuthorName}}
+\date{} % Insert date here if you want it to appear below your name
+
+%----------------------------------------------------------------------------------------
+
+
+
+
+\begin{document}
+
+\begin{titlepage}
+
+
+
+\vspace*{50px}
+\begin{center}
+\includegraphics[height=1.5cm]{Apertus_Logo.png}\\
+\end{center}
+
+\vspace*{90px}
+\textbf{\hfil apertus\degree Association Bylaws\hfil}\\
+
+\vspace*{\fill}
+Published by apertus\degree Association.\\
+
+For more information, email team@apertus.org or visit \href{https://apertus.org}{apertus.org}
+
+\end{titlepage}
+
+\noindent \textbf{Note:} The Association Bylaws are subject to change but any changes that do occur must be approved in accordance with stipulations outlined herein.\\
+
+The current versions of Association Bylaws can be identified/accessed/downloaded from \href{https://www.apertus.org/association-bylaws}{apertus.org}. As indicated in the foot of these pages, this version is V02.01.
+
+
+\vspace*{40px}
+\tableofcontents
+
+
+
+
+
+\include{apertus_Association_Bylaws_Body}
+
+
+
+
+
+
+\end{document}
