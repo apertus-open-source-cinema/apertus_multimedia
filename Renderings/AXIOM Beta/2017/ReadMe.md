@@ -12,6 +12,9 @@
   <dd>AXIOM_Beta_CP_sideR.png</dd>
   <dd>AXIOM_Beta_CP_top.png</dd>
   <dd>AXIOM_Beta_CP_top_cover_left.png</dd>
+  <dt>Sebastian Pichelhofer</dt>
+  <dd>extended-toprec-clay-render01.tga</dd>
+  <dd>extended-shoulderrec-clay-render01.tga</dd>
 </dl>
 
 
